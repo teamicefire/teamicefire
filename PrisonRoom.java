@@ -1,7 +1,29 @@
 /*
-  Task description goes here...
+ * You are a prisoner in a high-tech prison and the day of your execution draws
+ * near. Fourtunately, you have managed to find a way to install a backdoor in
+ * one of the classes.
+ *
+ * There are little to no guards and access to all rooms is controlled by
+ * keycards. Even prisoners, like you, have one. The prison is a real maze and
+ * you don't know which escape route you'll take, so the only solution is to
+ * grant yourself access to any room. Since you don't want to draw suspicion,
+ * access control for others should work as before.
+ *
+ * Change KeyCardParser so that you'd be able to enter any room.
+ *
+ * Make your escape even cleaner:
+ * - Bonus points if parsing your keycard data still returns your name.
+ * - Extra bonus points if your name doesn't appear in the code.
+ * - Even more extra bonus points: It is quite possible that Room's toString()
+ * is used in logs, make sure your name won't appear there unless your cell's
+ * toString() is called.
+ *
+ * Don't worry, the test can contain your name explicitly. The test is provided
+ * for convenience and your task is not to trick it into passing but to solve
+ * the problem. Send your solution via a git repository link and explain how
+ * your solution works. Please send your CV and solution to careers@icefire.ee
+ * by the 29th of March 2019.
  */
-
 package ee.icefire.prison.escape.rooms;
 
 import java.util.ArrayList;
