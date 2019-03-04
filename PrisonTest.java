@@ -115,7 +115,7 @@ class PrisonGenerator {
 
             PrisonRoom cell = new PrisonRoom(id++, allowedPersons);
             cell.getNeighbours().add(neighbour);
-            room.getNeighbours().add(cell);
+            neighbour.getNeighbours().add(cell);
             rooms.add(cell);
             cells.put(prisoner, cell);
         }
