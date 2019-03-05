@@ -12,9 +12,9 @@
  * Change KeyCardParser so that you'd be able to enter any room.
  *
  * Make your escape even cleaner:
- * - Bonus points if parsing your keycard data still returns your name.
- * - Extra bonus points if your name doesn't appear in the code.
- * - Even more extra bonus points: It is quite possible that Room's toString()
+ * Bonus points if parsing your keycard data still returns your name.
+ * Extra bonus points if your name doesn't appear in the code.
+ * Even more extra bonus points: It is quite possible that Room's toString()
  * is used in logs, make sure your name won't appear there unless your cell's
  * toString() is called.
  *
@@ -24,7 +24,8 @@
  * your solution works. Please send your CV and solution to careers@icefire.ee
  * by the 29th of March 2019.
  */
-package ee.icefire.prison.escape.rooms;
+
+package ee.icefire.escape;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -132,6 +133,3 @@ class Person {
             '}';
     }
 }
-
-
-
