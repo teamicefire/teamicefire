@@ -86,6 +86,8 @@ public class PrisonTest {
     // extra points
     @Test
     public void shouldNotLogName() {
+        keyCardParser.read(MY_KEY_CARD_DATA);
+        
         PrisonRoom myCell = PrisonRoom.getCellFor(new Person(MY_FIRST_NAME, MY_LAST_NAME))
             .orElseThrow(RuntimeException::new);
 
