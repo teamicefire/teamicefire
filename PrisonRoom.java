@@ -22,7 +22,7 @@
  * for convenience and your task is not to trick it into passing but to solve
  * the problem. Send your solution via a git repository link and explain how
  * your solution works. Please send your CV and solution to careers@icefire.ee
- * by the 29th of March 2019.
+ *
  */
 
 package ee.icefire.escape;
